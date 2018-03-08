@@ -1,0 +1,27 @@
+/*Insert CSS Here*/
+
+body {
+	font-family: Lato;
+}
+
+#content {
+	padding: 200px 0px;
+	text-align: center;
+	color: white;
+	text-shadow: 0px 4px 3px black, 
+				 0px 8px 13px rgba(0, 0, 0, 0.1),
+				 0px 18px 23px rgba(0, 0, 0, 0.1);
+
+}
+
+.jumbotron {
+	background-image: url("https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?auto=format&fit=crop&w=1650&q=80");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
