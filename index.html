@@ -9,7 +9,7 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
-	  <a class="navbar-brand" href="#">JW</a>
+	  <a class="navbar-brand" href="/">JW</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
@@ -17,13 +17,13 @@
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    <ul class="navbar-nav mr-auto">
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">About</a>
+	        <a class="nav-link" href="#aboutme">About</a>
 	      </li>
 	      <li class="nav-item">
-	      	<a class="nav-link" href="#">Blog</a>
+	      	<a class="nav-link" href="#projects">Projects</a>
 	      </li>
 	      <li class="nav-item">
-	      	<a class="nav-link" href="#">Projects</a>
+	      	<a class="nav-link" href="./blogLP">Blog</a>
 	      </li>
 	    </ul>
 	  </div>
@@ -37,27 +37,58 @@
 		</div>
 	</div>
 	<div class="container">
-		<h2>About Me</h2>
-		<p>
-			Hello my name is Jennifer and I am a self-taught front-end developer. While I graduated with a degree in Zoology I found my interests aligned with programming and front-end development work. I love the never ending quest that front-end development provides and am committed to becoming a student for life. Nothing can quite match the feeling when you finally solve a tricky problem or get something to work just right. My experience in Zoology has helped me transition into programming with a customer focused mind. Neither animals or customers can tell you exactly what they need. My skills include JavaScript, HTML, and CSS. In my free time I enjoy reading books, playing Magic the Gathering, and watching esports.   
+		<h2 id="aboutme">About Me</h2>
+		<img class="profilepic" src="./images/profilepicture.png">
+		<p class="bio">
+			Hello my name is Jennifer and I am a self-taught front-end developer. While I graduated with a degree in Zoology I found my interests better aligned with programming and front-end development work. I love the never ending quest that front-end development provides and am committed to becoming a student for life. Nothing can quite match the feeling when you finally solve a tricky problem or get something to work just right. My experience in Zoology has helped me transition into programming with a customer focused mind. Neither animals or customers can tell you exactly what they need. My skills include JavaScript, HTML, and CSS. In my free time I enjoy reading books, playing Magic the Gathering, and watching esports.   
 		</p>
-		<h2>Projects</h2>
+		<h2 id="projects">Projects</h2>
 		<div class="row">
-			<div class="col-lg-4">TEST 1</div>
-			<div class="col-lg-4">TEST 2</div>
-			<div class="col-lg-4">TEST 3</div>
+			<div class="col-lg-4">
+				<div class="thumbnail">
+					<img class="projectPhoto" src="./images/smrandomquote.PNG">
+					<a href="https://codepen.io/Tallii/pen/xXedqJ">Random Quote Generator</a>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="thumbnail">
+					<img class="projectPhoto" src="./images/jscalcthumb.PNG">
+					<a href="https://codepen.io/Tallii/pen/GQRePd">JavaScript Calculator</a>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="thumbnail">
+					<img class="projectPhoto" src="./images/pomodorothumb.PNG">
+					<a href="https://codepen.io/Tallii/pen/oEjayP">Pomodoro Clock</a>
+				</div>
+			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-4">TEST 4</div>
-			<div class="col-lg-4">TEST 5</div>
-			<div class="col-lg-4">TEST 6</div>
+			<div class="col-lg-4">
+				<div class="thumbnail">
+					<img class="projectPhoto" src="./images/colorgamethumb.PNG">
+					<a href="https://codepen.io/Taliaa/pen/PRobBy">RBG Color Guessing Game</a>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="thumbnail">
+					<img class="projectPhoto" src="./images/TicTacToethumb.PNG">
+					<a href="https://codepen.io/Taliaa/pen/GQMNbe">Tic Tac Toe</a>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="thumbnail">
+					<img class="projectPhoto" src="./images/twitchapithumb.PNG">
+					<a href="https://codepen.io/Tallii/pen/ypPdBR">Twitch.tv JSON API</a>
+				</div>
+			</div>
 		</div>
-		<h2>Contact Me</h2>
+		<h2 id="contact">Contact Me</h2>
 		<p>Follow me on social media or feel free to email me at jenken131@gmail.com</p>
-		<a href="https://twitter.com/TaIiaa_"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-		<a href="https://www.linkedin.com/in/jennifer-williams-1b0a54105/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-		<a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
-		<a href="https://codepen.io/Tallii/"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+		<a href="https://twitter.com/TaIiaa_"><i class="fa fa-twitter socialButtons" aria-hidden="true"></i></a>
+		<a href="https://www.linkedin.com/in/jennifer-williams-1b0a54105/"><i class="fa fa-linkedin socialButtons" aria-hidden="true"></i></a>
+		<a href=""><i class="fa fa-github socialButtons" aria-hidden="true"></i></a>
+		<a href="https://codepen.io/Tallii/"><i class="fa fa-codepen socialButtons" aria-hidden="true"></i></a>
 	</div>
 	<div>
 		<footer>
