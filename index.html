@@ -23,7 +23,7 @@
 	      	<a class="nav-link" href="#projects">Projects</a>
 	      </li>
 	      <li class="nav-item">
-	      	<a class="nav-link" href="./blogLP">Blog</a>
+	      	<a class="nav-link" href="./blogLP.html">Blog</a>
 	      </li>
 	    </ul>
 	  </div>
@@ -37,26 +37,33 @@
 		</div>
 	</div>
 	<div class="container">
-		<h2 id="aboutme">About Me</h2>
-		<img class="profilepic" src="./images/profilepicture.png">
-		<p class="bio">
-			Hello my name is Jennifer and I am a self-taught front-end developer. While I graduated with a degree in Zoology I found my interests better aligned with programming and front-end development work. I love the never ending quest that front-end development provides and am committed to becoming a student for life. Nothing can quite match the feeling when you finally solve a tricky problem or get something to work just right. My experience in Zoology has helped me transition into programming with a customer focused mind. Neither animals or customers can tell you exactly what they need. My skills include JavaScript, HTML, and CSS. In my free time I enjoy reading books, playing Magic the Gathering, and watching esports.   
-		</p>
+		
+		<div class="aboutMe">
+			<div class="mePic">
+				<img class="profilepic" src="./Images/profilepicture.png">
+			</div>
+			<div class="bioContainer">
+				<h2 id="aboutme">About Me</h2>
+				<p class="bio">
+					Hello my name is Jennifer and I am a self-taught front-end developer. While I graduated with a degree in Zoology I found my interests better aligned with programming and front-end development work. I love the never ending quest that front-end development provides and am committed to becoming a student for life. Nothing can quite match the feeling when you finally solve a tricky problem or get something to work just right. My experience in Zoology has helped me transition into programming with a customer focused mind. Neither animals or customers can tell you exactly what they need. My skills include JavaScript, HTML, and CSS. In my free time I enjoy reading books, playing Magic the Gathering, and watching esports.   
+				</p>
+			</div>
+		</div>
 		<h2 id="projects">Projects</h2>
 		<div class="row">
-			<div class="col-lg-4">
+			<div class="col-md-4 col-sm-2">
 				<div class="thumbnail">
 					<img class="projectPhoto" src="./Images/smrandomquote.PNG">
 					<a href="https://codepen.io/Tallii/pen/xXedqJ">Random Quote Generator</a>
 				</div>
 			</div>
-			<div class="col-lg-4">
+			<div class="col-md-4">
 				<div class="thumbnail">
 					<img class="projectPhoto" src="./Images/jscalcthumb.PNG">
 					<a href="https://codepen.io/Tallii/pen/GQRePd">JavaScript Calculator</a>
 				</div>
 			</div>
-			<div class="col-lg-4">
+			<div class="col-md-4">
 				<div class="thumbnail">
 					<img class="projectPhoto" src="./Images/pomodorothumb.PNG">
 					<a href="https://codepen.io/Tallii/pen/oEjayP">Pomodoro Clock</a>
@@ -64,13 +71,13 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-4">
+			<div class="col-md-4">
 				<div class="thumbnail">
 					<img class="projectPhoto" src="./Images/colorgamethumb.PNG">
 					<a href="https://codepen.io/Taliaa/pen/PRobBy">RBG Color Guessing Game</a>
 				</div>
 			</div>
-			<div class="col-lg-4">
+			<div class="col-md-4">
 				<div class="thumbnail">
 					<img class="projectPhoto" src="./Images/TicTacToethumb.PNG">
 					<a href="https://codepen.io/Taliaa/pen/GQMNbe">Tic Tac Toe</a>
@@ -85,10 +92,12 @@
 		</div>
 		<h2 id="contact">Contact Me</h2>
 		<p>Follow me on social media or feel free to email me at jenken131@gmail.com</p>
-		<a href="https://twitter.com/TaIiaa_"><i class="fa fa-twitter socialButtons" aria-hidden="true"></i></a>
-		<a href="https://www.linkedin.com/in/jennifer-williams-1b0a54105/"><i class="fa fa-linkedin socialButtons" aria-hidden="true"></i></a>
-		<a href="https://github.com/Taljjaa"><i class="fa fa-github socialButtons" aria-hidden="true"></i></a>
-		<a href="https://codepen.io/Tallii/"><i class="fa fa-codepen socialButtons" aria-hidden="true"></i></a>
+		<div class="socialContainer">
+			<a href="https://twitter.com/TaIiaa_"><div class="socialButtons verticallyCenterChildren"><i class="fa fa-twitter " aria-hidden="true"></i></div></a>
+			<a href="https://www.linkedin.com/in/jennifer-williams-1b0a54105/"><div class="socialButtons verticallyCenterChildren"><i class="fa fa-linkedin aria-hidden="true"></i></div></a>
+			<a href="https://github.com/Taljjaa"><div class="socialButtons verticallyCenterChildren"><i class="fa fa-github" aria-hidden="true"></i></div></a>
+			<a href="https://codepen.io/Tallii/"><div class="socialButtons verticallyCenterChildren"><i class="fa fa-codepen" aria-hidden="true"></i></div></a>
+		</div>
 	</div>
 	<div>
 		<footer>
