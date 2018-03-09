@@ -34,6 +34,7 @@ h1 {
 
 #aboutme, #projects, #contact {
 	text-align: center;
+	font-weight: bold;
 }
 
 .profilepic {
@@ -70,4 +71,9 @@ a:hover {
 
 .socialButtons:hover {
 	background-color: #224989;
+}
+
+footer {
+	text-align: center;
+	font-size: 0.75em;
 }
